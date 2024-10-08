@@ -9,3 +9,10 @@ docker login
 docker push gabrielviana14/container-hello:latest
 
 docker run gabrielviana14/container-hello
+
+create table usuarios(
+    id int PRIMARY KEY AUTO_INCREMENT,
+	nome varchar(255),
+	idade int,
+	endereço varchar(255)
+);
